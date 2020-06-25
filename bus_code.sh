@@ -28,7 +28,7 @@ if [[ $page_num -lt 2 ]] || [[ $page_num -gt 46 ]]; then
 	exit 1
 fi
 
-if [[ $line_num < 1 ]] || [[ $line_num > 40 ]]; then
+if [[ $line_num -lt 1 ]] || [[ $line_num -gt 40 ]]; then
 	echo 'Line number in range [1, 40].'
 	exit 1
 fi
