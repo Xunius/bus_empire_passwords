@@ -1,6 +1,6 @@
 #!/bin/bash
 
-password_file="$HOME/Notebooks/org/bus_empire.org"
+password_file="./bus_empire.org"
 
 #------------ Check inputs --------------------
 if [[ $# -eq 0 ]]; then
